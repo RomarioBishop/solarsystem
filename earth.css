@@ -1,0 +1,60 @@
+/*********************************************************************************/
+/* Menu  Button                                                                */
+/*********************************************************************************/
+
+
+.backbutton{
+
+  font-family:"Roboto", sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#1E90FF;
+  color:white;
+  padding: 15px;
+  margin-left:46%;
+  border:solid;
+  border-radius:5px;
+
+
+}
+/*********************************************************************************/
+/* Earth Style                                                                */
+/*********************************************************************************/
+
+.main{
+
+  background-color:rgb(24,38,51);
+}
+
+ p,.semihead,img {
+  margin-left: 50px;
+}
+
+.header{
+  color:rgb(0,90,80);
+  border-style:dotted;
+  border-radius:5px;
+  margin-right:500px;
+  margin-left:500px;
+  border-color:green;
+  text-align:center;
+}
+
+.semihead{
+  color:#1E90FF;
+  border-bottom:solid;
+  border-radius:5px;
+  margin-right:1200px;
+  text-align:center;
+  border-color:green;
+  font-size:150%;
+}
+img{
+  width: 500px;
+  height:200px;
+ }
+
+p{
+  color:rgb(0,85,76);
+  font-size:130%;
+}

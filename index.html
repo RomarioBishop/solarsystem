@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>image map </title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body class="solar">
+
+    <!-- circular solar system
+    1. Coord for center (5,5)  radius (393,5) subtract the 2 X values 393-5 = 388
+    2. Coord for center (520,360)  radius (584,360) subtract the 2 X values 584-520 = 64
+    3.
+    -->
+    <p class="imagecenter">
+
+      <img src= "solarsystem.jpg" alt= "image of solar system" Usemap= "#menumap2" />
+      <map name = "menumap2">
+          <area shape = "circle" coords="5,1,330" href ="sun.html" />
+          <area shape = "circle" coords="520,360,64" href ="earth.html" />
+          <area shape = "circle" coords="864,209,137" href ="jupiter.html" />
+          <area shape = "circle" coords="839,567,150" href ="saturn.html"/>
+
+      </map>
+    </p>
+    <h1 style="color:rgb(240,182,72);font-weight:bold;text-align:center"> WELCOME, PLEASE EXPLORE THE BEAUTY OF SPACE </h1>
+  </body>
+</html>

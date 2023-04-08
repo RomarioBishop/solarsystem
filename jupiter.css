@@ -1,0 +1,63 @@
+
+/*********************************************************************************/
+/* Menu  Button                                                                */
+/*********************************************************************************/
+
+
+.backbutton{
+
+  font-family:"Roboto", sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#1E90FF;
+  color:white;
+  padding: 15px;
+  margin-left:46%;
+  border:solid;
+  border-radius:5px;
+
+
+}
+
+
+/*********************************************************************************/
+/* Sun Style                                                                   */
+/*********************************************************************************/
+.main{
+
+  background-color:rgb(24,38,51);
+}
+
+ p,.semihead,img {
+  margin-left: 50px;
+}
+
+.header{
+  color:rgb(109,85,57);
+  border-style:dotted;
+  border-radius:5px;
+  margin-right:500px;
+  margin-left:500px;
+  border-color:rgb(253,112,0);
+
+  text-align:center;
+}
+
+.semihead{
+  color:#1E90FF;
+  border-bottom:solid;
+  border-radius:5px;
+  margin-right:1200px;
+  text-align:center;
+  border-color:grey;
+  font-size:150%;
+}
+img{
+  width: 500px;
+  height:200px;
+ }
+
+p{
+  color:rgb(109,85,57);
+  font-size:130%;
+}
